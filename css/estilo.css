@@ -1,0 +1,152 @@
+#topo{
+
+    width: 100%;
+    height: 30px;
+    background-color: #73b9ff;
+    position: fixed;
+
+    }
+
+    html{
+
+        scroll-behavior: smooth;
+    
+    }
+
+    .largura-site{
+        width: 900px;
+        margin: auto;
+
+    }
+
+    #logotipo{
+        width: 140px;
+        height: 24px;
+        float: left;
+    }
+
+    #menu{
+        width: auto;
+        height: auto;
+        float:right ;
+    }
+    #menu a{
+        color:white;
+        text-decoration:none ;
+        margin-left: 30px;
+    }
+
+    
+    #menu a:hover{
+
+           text-decoration: underline;
+             
+    }
+
+    body{
+        margin:0px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .conteudo{
+        width: 100%;
+        height: auto;
+        float: left;
+        border-bottom: 1px solid #73b9ff;
+        margin-top: 5px;
+        padding-top: 20px;
+        
+        
+    }
+    #conteudohome{
+        width:545px;
+        float: right;
+        margin-top: 60px;
+    }
+    .imghome{
+        margin-top: 60px;
+        float: left;
+    }
+
+    .imgmcontato{
+
+        margin-top: 60px;
+        float: left;
+        
+    }
+
+    h1{
+        font-size: 30px;
+        color:blue ;
+    }
+
+    .imgright{
+
+        float: right;
+        margin-left: 35px;
+          
+   }
+   ul{
+    color: #888;
+    list-style-type:square; /*altera o tipo de marcadores*/
+    font-size: 14px;
+    list-style-position: inside;/*recuo de primeira linha*/
+    
+   }
+
+   li{
+    margin-bottom:15px;
+    text-align: justify ;
+
+   }
+   form{
+    color: #888;
+    margin-bottom:100px;
+   }
+   input[type=text]{
+    width: 330px;
+    background-color:#eee;
+    border:solid 1px #999;
+    margin-bottom: 7px;
+   }
+
+   input[type=submit]{
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    border: solid 1px #666;
+    color: tomato;
+   }
+
+   input[type=textarea]{
+    width: 50px;
+    height: 30px;
+    margin-top: 10px;
+    border: solid 1px #666;
+    color: tomato;
+    resize: none;/*não permite que o usuário 
+    modifique o layout da tela */ 
+   }
+   
+   h1{ 
+    color: #666;
+    text-transform: uppercase;
+   }
+
+   p{
+    color: #888;
+    font-size: 18px;
+   }
+
+
+    footer{
+        width: 100%;
+        height: 30px;
+        float: left;
+        background-color:#dbc0ad;
+        text-align: center;
+        line-height: 30px;
+        color:#fff;
+    
+    }
+   
+  
